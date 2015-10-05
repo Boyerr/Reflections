@@ -10,3 +10,6 @@ You can review the items in the staging area to make sure all of the files are r
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches would be helpful when you want to try experimental changes or when you have multiple independent activies going on at once. For experimental changes, branches help by avoiding having all of the logs clutter the history. For independent activities, branches keep the history focused on the activity that the users of the particular branch are concerned with.
 
+How do the diagrams help you visualize the branch structure?
+Diagrams make it much easier to visualize the graph structure of the branches, e.g., easier to see parents and parallel structures.
+
