@@ -3,3 +3,10 @@ The .git folder is created containing various metadata. The step is required to 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is really just a list of the files that are to be added to the repository on the next commit. While the working directory and repository contain the actual contents of versions of the files. This allows one to review the list of files to be added to the repository to ensure that the desired and only the desired files will be added to the repository upon a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can review the items in the staging area to make sure all of the files are relevant to the change and that no files have been overlooked. You can also diff the staging area against the repository or the working directory to ensure the changes are as expected.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful when you want to try experimental changes or when you have multiple independent activies going on at once. For experimental changes, branches help by avoiding having all of the logs clutter the history. For independent activities, branches keep the history focused on the activity that the users of the particular branch are concerned with.
+
