@@ -16,3 +16,9 @@ Diagrams make it much easier to visualize the graph structure of the branches, e
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The commits from the source branch are combined into the target branch and appropriate bookkeeping is provided to be able to distinguish the 'pseudo-parent' from the real 'parent'.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: Saves a lot of time not having to deal with obvious non-conflicting changes.
+Pro: Encourages frequent commits.
+Con: A non-conflicting change may actually be a problem and attention isn't drawn to it.
+Con: Less manual review of the code.
+
