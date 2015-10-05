@@ -13,3 +13,6 @@ Branches would be helpful when you want to try experimental changes or when you 
 How do the diagrams help you visualize the branch structure?
 Diagrams make it much easier to visualize the graph structure of the branches, e.g., easier to see parents and parallel structures.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The commits from the source branch are combined into the target branch and appropriate bookkeeping is provided to be able to distinguish the 'pseudo-parent' from the real 'parent'.
+
