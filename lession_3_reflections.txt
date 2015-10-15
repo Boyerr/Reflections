@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 I would create a remote repository to either share the repository with someone else so they can review/contribute or just for peace of mind by knowing that I won't loss my work should my computer cease to function.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Automatic pulls would tend to interrupt my workflow if I'm focused on a new feature I'm adding I don't want my thought process or actions to be interrupted by some changes that those sharing my repository introduced.
