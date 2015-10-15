@@ -3,3 +3,8 @@ I would create a remote repository to either share the repository with someone e
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Automatic pulls would tend to interrupt my workflow if I'm focused on a new feature I'm adding I don't want my thought process or actions to be interrupted by some changes that those sharing my repository introduced.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are like clones, but are restricted to the GitHub environment. Normally a fork is used to create a copy of a repository with no intention of applying any local changes back to the source.
+Clones are copies where you intend to update the source at some later time. Clones can be made locally from repositories on GitHub or from local repositories.
+Branches are changes made to the items within a repository.
