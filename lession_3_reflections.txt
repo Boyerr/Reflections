@@ -11,3 +11,6 @@ Branches are changes made to the items within a repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows for resolving difference between the local and the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+In the past remote collaboration might have involved mailing a copy of the file(s) back and forth and making edits and comments in the files being exchanged, or you would call someone over to your desk. Capturing comments in GitHub is certainly easier since they are stored in GitHub and viewable by all collaborators. Overall all this process is easier, but if you didn't have internet access then something like walking over to the person would be easier.
